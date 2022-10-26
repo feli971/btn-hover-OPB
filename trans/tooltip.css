@@ -1,0 +1,26 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    padding:0;
+    margin:0;
+}
+.btn-modern{
+    background-color:rgb(117, 117, 228);
+    padding:15px;
+    border:none;
+    border-radius:5px;
+    color:rgb(80, 78, 78);
+    border-bottom: solid 3px rgb(88, 88, 182);
+    
+    
+}
+.btn-modern:hover{
+    transform:translateY(-5px);
+    cursor:pointer;
+    box-shadow: inset 5em 1em rgb(72, 34, 116);
+    border-bottom:none;
+    color:black;
+    transition-duration: 0.4s;
+}
